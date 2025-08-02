@@ -1,15 +1,20 @@
-﻿namespace HTS.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace HTS.Models
 {
     public class Comment
     {
+        [Required]
         public int Id { get; set; }
-        public string Message { get; set; }
-        public DateTime CreatedAt { get; set; }
-
+        [Required]
         public int TicketId { get; set; }
-        public Ticket Ticket { get; set; }
-
-        public string AuthorId { get; set; }
-        public User Author { get; set; }
+        [Required]
+        public string Message { get; set; }
+        [Required]
+        public int CreatedBy { get; set; }
+        [Required]
+        public DateTime CreatedOn { get; set; }
+        public DateTime ModifiedOn { get; set; }
+        public int ModifiedBy { get; set; }
     }
 }
