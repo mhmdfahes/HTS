@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mhadf\\source\\repos\\HTS\\HTS\\HTS.csproj",
+      "projectUniqueName": "C:\\Users\\mhadf\\source\\repos\\GITHUB\\HTS\\HTS.csproj",
       "projectName": "HTS",
-      "projectPath": "C:\\Users\\mhadf\\source\\repos\\HTS\\HTS\\HTS.csproj",
+      "projectPath": "C:\\Users\\mhadf\\source\\repos\\GITHUB\\HTS\\HTS.csproj",
       "packagesPath": "C:\\Users\\mhadf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mhadf\\source\\repos\\HTS\\HTS\\obj\\",
+      "outputPath": "C:\\Users\\mhadf\\source\\repos\\GITHUB\\HTS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
